@@ -12,6 +12,10 @@ public enum Attribute {
     case `class`(value: String)
     case custom(key: String, value: String)
     case href(url: String)
+    case charset(value: String)
+    case onClick(value: String)
+    case style(value: String)
+    case type(value: String)
     
     var asPair: (String, String) {
         get {
@@ -24,6 +28,14 @@ public enum Attribute {
                 return (key, value)
             case let .href(value):
                 return ("href", value)
+            case let .charset(value):
+                return ("charset", value)
+            case let .onClick(value):
+                return ("onclick", value)
+            case let .style(value):
+                return ("style", value)
+            case let .type(value):
+                return ("type", value)
             }
         }
     }

@@ -7,6 +7,10 @@ public func <%= name %>(node: @escaping NodeThunk) -> Node {
     return Node.element(name: "<%= name %>", attributes: [], child: node())
 }
 
+public func <%= name %>(attributes: [Attribute], _ node: @escaping NodeThunk) -> Node {
+    return Node.element(name: "<%= name %>", attributes: attributes, child: node())
+}
+
 public func <%= name %>(_ text: String) -> Node {
     return .element(name: "<%= name %>", attributes: [], child: .text(text: text))
 }

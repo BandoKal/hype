@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5DB4D367C6BCD830598B9BE3 /* Pods_Hype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C229E939B4E40246C91EC89 /* Pods_Hype.framework */; };
-		73875FE4C3816CF781D27AE3 /* Pods_HypeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0B5DA55521348A4BB2B53D /* Pods_HypeTests.framework */; };
+		05708FC1222771CE0094EE83 /* HypeMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 05708FBF222771CE0094EE83 /* HypeMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0571DFA12227755C00374F47 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7805C60B20E826D300AAC73A /* Attribute.swift */; };
+		0571DFA22227756100374F47 /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7870ADEC20EC15D000150F7F /* Class.swift */; };
+		0571DFA32227756100374F47 /* SemanticUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7870ADF020EC2E8D00150F7F /* SemanticUI.swift */; };
+		0571DFA42227756100374F47 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780B279A20E951F9002B435F /* Component.swift */; };
+		0571DFA52227756100374F47 /* Html.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7805C60D20E826EE00AAC73A /* Html.swift */; };
+		0571DFA62227756100374F47 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7872933C20E7E69100CCE01B /* Node.swift */; };
+		0571DFA72227756100374F47 /* Render.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7870ADEE20EC197400150F7F /* Render.swift */; };
+		0571DFA82227756100374F47 /* AttributeDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78645C6520FA917200E1DA7D /* AttributeDecorator.swift */; };
 		7805C60C20E826D300AAC73A /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7805C60B20E826D300AAC73A /* Attribute.swift */; };
 		7805C60E20E826EE00AAC73A /* Html.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7805C60D20E826EE00AAC73A /* Html.swift */; };
 		780B279B20E951F9002B435F /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780B279A20E951F9002B435F /* Component.swift */; };
@@ -33,7 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4CD9449282B16B02EA49481A /* Pods-Hype.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hype.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hype/Pods-Hype.release.xcconfig"; sourceTree = "<group>"; };
+		05708FBD222771CE0094EE83 /* HypeMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HypeMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05708FBF222771CE0094EE83 /* HypeMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HypeMac.h; sourceTree = "<group>"; };
+		05708FC0222771CE0094EE83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7805C60B20E826D300AAC73A /* Attribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attribute.swift; sourceTree = "<group>"; };
 		7805C60D20E826EE00AAC73A /* Html.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Html.swift; sourceTree = "<group>"; };
 		780B279A20E951F9002B435F /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
@@ -57,19 +66,20 @@
 		78AC8BE320F53B6E00B907DE /* 01.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 01.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78AC8BE420F53B6E00B907DE /* 02.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 02.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78E31A3020EFE0DD0012CF2E /* Proposals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Proposals.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		8EF8D0829C7A79D042B069B3 /* Pods-HypeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HypeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HypeTests/Pods-HypeTests.release.xcconfig"; sourceTree = "<group>"; };
-		9C229E939B4E40246C91EC89 /* Pods_Hype.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hype.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0E4BA964B4D0C3D1BE3C8ED /* Pods-HypeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HypeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HypeTests/Pods-HypeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B25AA384B6E4DD18320C736B /* Pods-Hype.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hype.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hype/Pods-Hype.debug.xcconfig"; sourceTree = "<group>"; };
-		CA0B5DA55521348A4BB2B53D /* Pods_HypeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HypeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		05708FBA222771CE0094EE83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7872931E20E7E66700CCE01B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DB4D367C6BCD830598B9BE3 /* Pods_Hype.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +88,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				7872932C20E7E66700CCE01B /* Hype.framework in Frameworks */,
-				73875FE4C3816CF781D27AE3 /* Pods_HypeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05708FBE222771CE0094EE83 /* HypeMac */ = {
+			isa = PBXGroup;
+			children = (
+				05708FBF222771CE0094EE83 /* HypeMac.h */,
+				05708FC0222771CE0094EE83 /* Info.plist */,
+			);
+			path = HypeMac;
+			sourceTree = "<group>";
+		};
 		783A42BA20F7FCFE00102E52 /* Tutorial */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,9 +131,8 @@
 				7872933E20E80CEE00CCE01B /* Examples */,
 				7872932420E7E66700CCE01B /* Hype */,
 				7872932F20E7E66700CCE01B /* HypeTests */,
+				05708FBE222771CE0094EE83 /* HypeMac */,
 				7872932320E7E66700CCE01B /* Products */,
-				DC1FE3E0B38DA98FCB9AE7AE /* Pods */,
-				7D025CCE631E2F837B65A9F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +141,7 @@
 			children = (
 				7872932220E7E66700CCE01B /* Hype.framework */,
 				7872932B20E7E66700CCE01B /* HypeTests.xctest */,
+				05708FBD222771CE0094EE83 /* HypeMac.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -164,29 +182,17 @@
 			path = Examples;
 			sourceTree = "<group>";
 		};
-		7D025CCE631E2F837B65A9F9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9C229E939B4E40246C91EC89 /* Pods_Hype.framework */,
-				CA0B5DA55521348A4BB2B53D /* Pods_HypeTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DC1FE3E0B38DA98FCB9AE7AE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B25AA384B6E4DD18320C736B /* Pods-Hype.debug.xcconfig */,
-				4CD9449282B16B02EA49481A /* Pods-Hype.release.xcconfig */,
-				A0E4BA964B4D0C3D1BE3C8ED /* Pods-HypeTests.debug.xcconfig */,
-				8EF8D0829C7A79D042B069B3 /* Pods-HypeTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		05708FB8222771CE0094EE83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05708FC1222771CE0094EE83 /* HypeMac.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7872931F20E7E66700CCE01B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -198,11 +204,28 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		05708FBC222771CE0094EE83 /* HypeMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05708FC4222771CE0094EE83 /* Build configuration list for PBXNativeTarget "HypeMac" */;
+			buildPhases = (
+				05708FB8222771CE0094EE83 /* Headers */,
+				05708FB9222771CE0094EE83 /* Sources */,
+				05708FBA222771CE0094EE83 /* Frameworks */,
+				05708FBB222771CE0094EE83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HypeMac;
+			productName = HypeMac;
+			productReference = 05708FBD222771CE0094EE83 /* HypeMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		7872932120E7E66700CCE01B /* Hype */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7872933620E7E66700CCE01B /* Build configuration list for PBXNativeTarget "Hype" */;
 			buildPhases = (
-				F45D8A917778D86837C8FD5F /* [CP] Check Pods Manifest.lock */,
 				7872931D20E7E66700CCE01B /* Sources */,
 				7872931E20E7E66700CCE01B /* Frameworks */,
 				7872931F20E7E66700CCE01B /* Headers */,
@@ -221,11 +244,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7872933920E7E66700CCE01B /* Build configuration list for PBXNativeTarget "HypeTests" */;
 			buildPhases = (
-				6F696F06D50464DCF33D3D1E /* [CP] Check Pods Manifest.lock */,
 				7872932720E7E66700CCE01B /* Sources */,
 				7872932820E7E66700CCE01B /* Frameworks */,
 				7872932920E7E66700CCE01B /* Resources */,
-				B9A33E5A3697CA643848C206 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,6 +268,9 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Chris Constable";
 				TargetAttributes = {
+					05708FBC222771CE0094EE83 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					7872932120E7E66700CCE01B = {
 						CreatedOnToolsVersion = 9.3.1;
 						LastSwiftMigration = 0930;
@@ -270,11 +294,19 @@
 			targets = (
 				7872932120E7E66700CCE01B /* Hype */,
 				7872932A20E7E66700CCE01B /* HypeTests */,
+				05708FBC222771CE0094EE83 /* HypeMac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		05708FBB222771CE0094EE83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7872932020E7E66700CCE01B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -291,66 +323,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		6F696F06D50464DCF33D3D1E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HypeTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B9A33E5A3697CA643848C206 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HypeTests/Pods-HypeTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HypeTests/Pods-HypeTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F45D8A917778D86837C8FD5F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Hype-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
+		05708FB9222771CE0094EE83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0571DFA72227756100374F47 /* Render.swift in Sources */,
+				0571DFA52227756100374F47 /* Html.swift in Sources */,
+				0571DFA82227756100374F47 /* AttributeDecorator.swift in Sources */,
+				0571DFA22227756100374F47 /* Class.swift in Sources */,
+				0571DFA42227756100374F47 /* Component.swift in Sources */,
+				0571DFA62227756100374F47 /* Node.swift in Sources */,
+				0571DFA32227756100374F47 /* SemanticUI.swift in Sources */,
+				0571DFA12227755C00374F47 /* Attribute.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7872931D20E7E66700CCE01B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -385,6 +373,65 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		05708FC2222771CE0094EE83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 889TX26285;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = HypeMac/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcahealthcare.HypeMac;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		05708FC3222771CE0094EE83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 889TX26285;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = HypeMac/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcahealthcare.HypeMac;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 		7872933420E7E66700CCE01B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -507,7 +554,6 @@
 		};
 		7872933720E7E66700CCE01B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B25AA384B6E4DD18320C736B /* Pods-Hype.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -534,7 +580,6 @@
 		};
 		7872933820E7E66700CCE01B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CD9449282B16B02EA49481A /* Pods-Hype.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -560,7 +605,6 @@
 		};
 		7872933A20E7E66700CCE01B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0E4BA964B4D0C3D1BE3C8ED /* Pods-HypeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -579,7 +623,6 @@
 		};
 		7872933B20E7E66700CCE01B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EF8D0829C7A79D042B069B3 /* Pods-HypeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -599,6 +642,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		05708FC4222771CE0094EE83 /* Build configuration list for PBXNativeTarget "HypeMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05708FC2222771CE0094EE83 /* Debug */,
+				05708FC3222771CE0094EE83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7872931C20E7E66700CCE01B /* Build configuration list for PBXProject "Hype" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
